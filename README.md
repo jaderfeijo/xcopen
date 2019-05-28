@@ -14,7 +14,7 @@ gem 'xcopen'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In order to use `xcopen` simply type:
+
+```
+ $ xcopen PROJECT_NAME|WORKSPACE_NAME
+```
+
+`xcopen` will automatically read the required Xcode version for the project, and look for it inside your `/Applications` folder. If the correct version is not found the command will fail and will output a message stating that the required Xcode version for the project could not be found.
 
 ## Development
 
