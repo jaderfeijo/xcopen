@@ -1,3 +1,10 @@
 #!/usr/bin/env ruby
 
 require "xcopen"
+
+filename = ARGV[0]
+
+raise "Unspecified filename" if filename.to_s.empty?
+
+project = Xcopen::XcodeProject.new(filename)
+project.open
