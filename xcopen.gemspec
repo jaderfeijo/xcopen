@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jader.feijo@gmail.com"]
 
   spec.summary       = "Opens Xcode project files with the correct version of Xcode"
-  spec.description   = "Allows you to open an 'xcproj' or 'xcworkspace' file with the correct version of Xcode"
+  spec.description   = "Allows you to open an 'xcodeproj' or 'xcworkspace' file with the correct version of Xcode"
   spec.homepage      = "https://github.com/jaderfeijo/xcopen"
   spec.license       = "MIT"
 
